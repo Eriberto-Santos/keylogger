@@ -1,7 +1,7 @@
 import smtplib
 import ssl
 
-# Función para enviar mensaje al correo electronico 
+#* Función para enviar mensaje al correo electronico 
 def sendEmail(message):
     smtp_server = "smtp.gmail.com"
     port = 587
